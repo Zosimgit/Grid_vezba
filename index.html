@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Grid vezba</title>
+        <style>
+            .body, h1, p {
+                font-family: 'Times New Roman', sans-serif;
+                color: rgb(41, 40, 40);
+
+            }
+            
+            .container {
+                max-width: 960px;
+                width: 90%;
+                margin: 0 auto;
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(144px, 1fr));
+                grid-gap: 50px;           
+            }
+
+            .box {
+                height: 120px;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+                background-image: url(placeholder-image.png);
+                background-size: 100%;
+                background-position: top;
+                background-color: rgb(164, 205, 238);       
+            }
+            .image-title {
+                background-color: lightgray;
+                border-bottom-left-radius: 15px;
+                border-bottom-right-radius: 15px;
+                text-align: center;
+
+            }
+            #main{
+                max-width: 960px;
+                width: 90%;
+                margin: 0 auto;
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(144px, 1fr));
+                
+            }
+            
+                        
+        </style>
+
+    </head>
+
+    <body>
+        
+        <h1>Galery heading</h1>
+
+             <div class="container" >
+            <div class="column">
+                <div class="box"></div>
+                 <div class="image-title">
+                     <span>Image title</span>
+                </div>
+            </div>
+            <div class="column">
+                 <div class="box"></div>
+                 <div class="image-title">
+                    <span>Image title</span>
+               </div>
+            </div>
+            <div class="column">
+                <div class="box"></div>
+                <div class="image-title">
+                   <span>Image title</span>
+              </div>
+           </div>
+           <div class="column">
+            <div class="box"></div>
+            <div class="image-title">
+               <span>Image title</span>
+            </div>
+          </div>
+          <div class="column">
+            <div class="box"></div>
+            <div class="image-title">
+               <span>Image title</span>
+            </div>
+           </div>
+           <div class="column">
+            <div class="box"></div>
+             <div class="image-title">
+                 <span>Image title</span>
+             </div>
+          </div>
+           <div class="column">
+            <div class="box"></div>
+            <div class="image-title">
+               <span>Image title</span>
+           </div>
+         </div>
+         <div class="column">
+            <div class="box"></div>
+            <div class="image-title">
+               <span>Image title</span>
+           </div>
+         </div>
+         <div class="column">
+            <div class="box"></div>
+            <div class="image-title">
+               <span>Image title</span>
+           </div>
+         </div>
+         <div class="column">
+            <div class="box"></div>
+            <div class="image-title">
+               <span>Image title</span>
+           </div>
+         </div>     
+        </div><!--end #container-->
+        
+        <div id="main">
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Dolorem suscipit asperiores corrupti ex ad. Sunt officia 
+            libero magni similique odio excepturi et quos iusto, quia,
+            in nihil. Vitae, vel veniam.Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Dolorem suscipit asperiores corrupti ex ad. Sunt officia 
+            libero magni similique odio excepturi et quos iusto, quia,
+            in nihil. Vitae, vel veniam. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Dolorem suscipit asperiores corrupti ex ad. Sunt officia 
+            libero magni similique odio excepturi et quos iusto, quia,
+            in nihil. Vitae, vel veniam.Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Dolorem suscipit asperiores corrupti ex ad. Sunt officia 
+            libero magni similique odio excepturi et quos iusto, quia,
+            in nihil. Vitae, vel veniam.</p>
+        
+        </div><!--end #main-->
+    
+    </body>
+
+</html>
